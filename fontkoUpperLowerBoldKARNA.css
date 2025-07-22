@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(90deg,red,#ee7752,#23a6d5,#23d5ab,gray);
+    text-align: center;
+}
+.main{
+    width: 50%;
+    height: auto;
+    box-shadow: 10px 10px  10px 10px solid black;
+    margin: 18%;
+    /* background-color: #23a6d5; */
+
+}
+button{
+    font-size: 20px;
+    border-radius: 8px;
+    padding:10px;
+}
+input{
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+}

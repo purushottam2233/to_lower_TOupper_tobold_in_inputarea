@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upper case loewr case</title>
+    <link rel="stylesheet" href="fontkoUpperLowerBoldKARNA.css">
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="inpute">
+
+        <button id="upper"> upper case</button>
+        <button id="loewr"> lower case</button>
+        <button id="bold">bold</button>
+    </div>
+    <script>
+        let type=document.getElementById("inpute");
+        
+        let upper =document.getElementById("upper");
+        let lower=document.getElementById("loewr");
+         let bold =document.getElementById("bold");
+
+
+         upper.addEventListener('click',()=>{
+            type.style="text-transform: uppercase;"
+         })
+
+         lower.addEventListener('click',()=>{
+            type.style="text-transform: lowercase;"
+         })
+
+         bold.addEventListener('click',()=>{
+            type.style="font-weight: bold;"
+         })
+      
+    </script>
+</body>
+</html>
